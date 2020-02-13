@@ -1,0 +1,24 @@
+.settings {
+  border-top: solid 1px #f7f7f7;
+  padding-top: 30px;
+}
+
+.settings__list .settings__setting {
+  margin-bottom: 25px;
+}
+
+.settings__setting .settings__icon {
+  font-size: 20px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.settings__setting .settings__title {
+  font-size: 22px;
+  font-weight: 300;
+}
+
+/*마지막 요소의 마진값 0으로 다르 섹션이 추가될 때 마지막 요소의 바텀마진과 패딩값이 동시에 적용되기 때문*/
+.settings__setting .settings__title:last-child {
+  margin-bottom: 0;
+}
