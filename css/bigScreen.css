@@ -15,7 +15,7 @@
   z-index: 4;
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (min-width: 550px) {
   .bigScreen {
     display: flex;
   }
